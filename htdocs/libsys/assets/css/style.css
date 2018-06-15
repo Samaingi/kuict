@@ -1,0 +1,298 @@
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+head{icon:url(../images/pit.png);}
+
+.header
+	{
+		background-color:#fff;
+        color: #3E5367;
+		width:100%;
+		height:40px;
+		position:fixed;
+		top:0;
+		padding:10px;
+		
+		font-weight:bold;}
+		.footer
+	{
+		background-color:#fff;
+        color: #3E5367;
+		width:100%;
+		height:30px;
+		position:fixed;
+		bottom:0;
+		opacity:0.9;
+		padding:10px;}
+.sidenav
+	{
+		padding-top:40px;
+		height:100%;
+		max-width:250px;
+		background-color:#fff;
+		position:fixed;
+		overflow:hidden;}
+		
+#linkref
+	{
+		color:#000;
+		text-decoration:none;
+		padding:11px;
+		border-right:1px ridge #006;
+				}
+#navbar
+	{
+		text-align:center;
+		width:100%;
+		height:40px;
+		background-color:#fff;
+		color:#000;
+		position:fixed;
+		padding:11px;
+		top:0;
+		font-size:16px;
+		font-weight:bold;
+					
+				}
+ul li 
+	{
+		list-style-type:none;
+		text-align:center;
+		float:left;
+		}
+ul li a:hover
+	{
+		color:#000;
+		background-color:#0cf;
+		}
+.animate-left
+	{
+		position:relative;
+		-webkit-animation:animateleft 0.4s;
+		animation:animateleft 0.4s;
+		}
+.container{padding:0.01em 16px;}
+.container:after{content:"";display:table;clear:both}
+.row:after{content:"";display:table;clear:both}
+.col{float:left;width:100%,padding:0px 8px;}
+.col.s1{width:24.99999%;}
+.col.s2{width:41.99999%;}
+.circle{border-radius:50%!important;}
+.margin-right{margin-right:16px!important;}
+.padding{padding:8px 16px!important;}
+.padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.black{color:#fff!important;background-color:#000!important;}
+.large{font-size:16px;}
+.btn{box-shadow:none;background-color:inherit;color:inherit;float:left;}
+.sidenav a{padding:4px 2px 4px 16px}
+.sidenav a:hover{background-color:#000;color:#fff}
+.sidenav a,.dropnav a{display:block}
+.overlay{
+	position:fixed;
+	display:none;
+	width:100%;
+	height:100%;
+	top:0;left:0;right:0;bottom:0;
+	background-color:rgba(0,0,0,0.5);
+	z-index:2;}
+.active{
+	color:#fff!important;
+	background-color:#0cf!important;
+	}
+.dropbtn {
+	width:300px;
+    background-color: #fff;
+    color: #0cf;
+       border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default)*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown*/
+.dropdown-content a {
+    color: 1abb9c;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover*/
+.dropdown-content a:hover {background-color: #000}
+
+/* Show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown*/
+.dropdown:hover .dropbtn {
+    background-color: #000;
+}
+
+
+@media (max-width:600px){.hide-small{display:none!important}}
+@media screen and (max-width:992px){
+	.sidenav.collapse
+	   {display:none;}
+	 .main{margin-left:0!important;margin-right:0!important}
+	 }
+@media screen and (min-width:993px){
+	 .sidenav.collapse{display:block!important}
+	 .hide-large{display:none!important}
+	 }
+@media (max-width:992px) and (min-width:601px){.hide-medium{display:none!important}}
+	 		
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-color: #3E5367 !important;
+}
+
+body {
+	color:
+    font-family: sans-serif;
+    background: #f1f1f1 url("../images/bg2.png") repeat;
+}
+
+main.container {
+    width: 80%;
+    margin: 1rem auto;
+    border: 1px solid red;
+    background-color: #fff;
+}
+
+.panel {
+    background-color: #fff;
+    max-width: 350px;
+    margin: 10% auto;
+    padding: 2rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.table {
+    background-color: #fff;
+    max-width: 80%;
+    margin: 10% auto;
+    padding: 2rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/*form inputs*/
+.form-group {
+    margin: 0.5rem;
+    color: #3E5367;
+}
+.formgroup input[type=text], select
+{
+	 display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #0CF;
+    color: #3E5367;
+    border-radius: 0.2rem;
+    outline: 0;
+    margin: 0 0.2rem;
+	}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"]
+ {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #0cf;
+    color: #3E5367;
+    border-radius: 0.2rem;
+    outline: 0;
+    margin: 0 0.2rem;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    color: #3E5367;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px rgba(26, 187, 156, 0.6);
+}
+
+.form-group label {
+    display: block;
+    margin-left: 0.3rem;
+    color: #3E5367;
+}
+
+.form-group a {
+    font-size: 0.8rem;
+    float: right;
+    margin-top: 1rem;
+}
+
+.form-group .helper {
+    font-size: 0.8em;
+    display: block;
+    color: #ef5d5b;
+    padding: 0.4rem 0.4rem 0.4rem 0.3rem;
+    margin-left: 0.3rem;
+}
+
+
+button {
+    display: inline-block;
+	padding: 4px 10px;
+    border-radius: 2px;
+	float:left;
+    outline-color: #0cf;
+    background-color: #0cf;
+    border: 1px solid #0cf;
+    color: #ffffff;
+    transition: 300ms;
+    font-size: 1rem;
+    cursor: pointer;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #0cf;
+}
+
+button:active, button:focus {
+    background-color: #ffffff;
+    color: #0cf;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px rgba(26, 187, 156, 0.6);
+}
+
+/*links styles*/
+a {
+    color: #0cf;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+

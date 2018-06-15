@@ -1,0 +1,71 @@
+/* CSS Document */
+.val_error{
+       color:#FF0000;	   
+  } 
+  .btn{cursor:not-allowed;opacity:0.3}
+  .tbl
+ {
+	 border-radius:5px;
+	 border-style:double;
+	 display:run-in;
+	 box-shadow:inset;
+	 
+ }.help{
+	 float: right;
+	 border-right: 5px;
+	 Background-color:#ffffff;
+	 color: #FFFFFF;
+	 margin-right: 5px;
+
+	 font-style: italic;
+ }
+
+#header{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    width:80%;
+	height:20%;
+	background:#0099FF;
+	color:#000000;
+    }
+#footer{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+    width:80%;
+	height:10%;
+	background:#0099FF;
+	color:#000000;
+    }
+#menubar{ 
+    width:80%;
+	height:10%;
+	background:#0099ff;
+	overflow: auto;
+	float:none;
+    }
+#data{
+maxheight:60%;
+width:80%;
+background:#66CCFF;
+	color:#000000;
+	overflow: auto;
+	font-family:Georgia;
+    }
+	#menubar tr td{
+	padding:20px;
+	 list-style:none;
+		}
+ #menubar tr td:hover{
+	  background:#66CCFF;
+	   color:#ffffff;
+	  }
+	   a{
+	  color:#000000;
+	  text-decoration:none;}
+	  .button{
+	  background-color:#0099FF;
+	  width:40px;
+	  height:50px;
+
+}
+

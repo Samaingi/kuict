@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+/*body*/
+body {
+	background-color:#999;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	}
+	/*heading*/
+.header{
+	background-color:#0cf;
+	top:0;
+	position:fixed;
+	height:30px;
+	width:100%;
+	opacity:0.7;
+	padding:14px;
+	}
+	/*footer*/
+.footer{
+	background-color:#0cf;
+	position:fixed;
+	bottom:0;
+	height:30px;
+	width:100%;
+	padding:14px;
+	}
+.panel{
+	background-color:#FFF;
+	text-align:center;
+	width:50%;
+	height:auto;
+	color:#000;
+	border-radius:5px;
+	margin-top:30px;
+	padding:5px;
+	}
+table{
+	padding:5px;
+	margin:2px;}
+input[type="text"],
+input[type="select"],
+input[type="submit"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+	color:#000;
+	font-size:16px;
+	border-radius:5px;
+	width: 90%;
+	border:solid 2px #0cf;
+	padding: 0.5rem;
+	}
+input[type="submit"]{color:#fff;
+background-color:#0cf;}

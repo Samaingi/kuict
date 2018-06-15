@@ -1,0 +1,83 @@
+.val_error{
+       color:#FF0000;
+	   }
+	
+.tableColor{
+	          background-color:#999999;
+			  }
+
+.tdColor {
+	font:13px serif;
+	color:#0033FF;
+	background-color:#CCCCCC;
+	}
+.selectColor{
+      background-color:#FFFFFF;
+     }	
+.font{ 
+          font:"Times New Roman", Times, serif;
+}
+	
+a {
+	color: #CC3300;
+	text-decoration:none;
+	}
+	
+a:hover {
+	color: #FF3300;
+	text-decoration:none;
+	}
+	
+/* ID Styles */
+
+#navigation a {
+	font:11px georgia;
+	color: #0033FF;
+	font-weight:bold;
+	text-decoration: none;
+	letter-spacing:.1em;
+	line-height:16px;
+	display:block;
+	padding:10px;
+	border: 1pt solid rgb(20,40,95);
+	border-right-width: 0px; 
+	border-left-width: 0px; 
+	}
+	
+#navigation a:hover {
+	color:#ffffff;
+	border: 1pt dotted red;
+	border-right-width: 0px; 
+	border-left-width: 0px; 
+	}	
+#dateformat a {
+	color:#0033FF;
+	font:11px georgia;
+	color: #99CCFF;
+	letter-spacing:.2em;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+#dateformat a:hover {
+	color: #ffffff;
+	}
+
+.bodyText {
+	font:12px arial;
+	color:#0033FF;
+	line-height:20px;
+	letter-spacing:.1em;
+	margin-top:0px;
+	}	
+.detailText {
+	font:12px arial;
+	color:#ffffff;
+	line-height:16px;
+	letter-spacing:.1em;
+	}
+	
+
+	
+
+	
